@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iniciar Sesion</title>
+    <!--estilo css de boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+    <link rel="shortcut icon" href="imagen/favicon.ico">
+    <link rel="canonical" href="https://mdbootstrap.com/docs/jquery/components/buttons-social/">
+</head>
+<body>
+        <!--ENCABEZADO-->
+      <nav class="nav nav-horizontal" style="margin-top:50px;">
+        <div class="nav ml-auto mr-auto mb-1">
+            <img class="img-fluid h-auto bg-dark" src="imagen/111KLOGO22.png"></img>
+            
+        </div>
+        
+      </nav>
+      <!--COMIENZO DE FORMULARIO-->
+         <div class="container flex" style="margin-top:20px">
+              <div class="row">
+                  <div class="form-group col-md-6 col-md-offset-3 ml-auto mr-auto">
+                      <h3 class="text-center">Inicia Sesion</h3>
+                      <form  action="login.html" method="post" role="form" autocomplete="off">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="alguien@email.com">
+                          <br>
+                          <input type="password" name="password" class="form-control" placeholder="Clave">
+                          <span class="float-right"><a href="#">¿Olvido contraseña?</a></span>
+                          <div class="form-group">
+                              <button type="submit" class="mt-1 btn btn-success form-control">Ingresar</button>
+                          </div>
+                        </form>
+                        <span class="form-control">¿No tienes cuenta? <a href="register.html">Crear una!</a></span>
+                  </div>
+              </div>
+          </div>
+  </body>
+  </html>
